@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+
+
+    <ViewFlipper
+        android:id="@+id/flipper2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:flipInterval="3000"
+        android:inAnimation="@anim/slide_in_right"
+        android:outAnimation="@anim/slide_in_left"
+        android:layout_centerInParent="true" >
+
+        <ImageView
+            android:src="@drawable/kerela"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="start"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:src="@drawable/kerela1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="start"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:src="@drawable/kerela2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="start"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:src="@drawable/kerela3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="start"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:src="@drawable/kerela4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="start"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:src="@drawable/kerela5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:scaleType="centerCrop"/>
+
+    </ViewFlipper>
+</RelativeLayout>

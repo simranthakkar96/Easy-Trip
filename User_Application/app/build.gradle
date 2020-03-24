@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    //buildToolsVersion '24.0.3'
+    defaultConfig {
+        applicationId "com.example.simra_000.user_application"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    aaptOptions {
+        cruncherEnabled = false
+    }
+}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+
+    })
+
+    // Add this line for firebase
+
+    //compile 'com.github.anshulagarwal106:PasswordEditText:v1.0'
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:25.4.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    compile 'com.google.code.gson:gson:2.8.1'
+    compile 'com.squareup.okhttp3:okhttp:3.9.0'
+    compile 'com.miguelcatalan:materialsearchview:1.4.0'
+    compile 'com.squareup.picasso:picasso:2.3.3'
+    compile 'com.google.android.gms:play-services-maps:11.0.0'
+    compile 'com.google.android.gms:play-services:11.0.0'
+    compile 'com.roughike:bottom-bar:1.3.3'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:multidex:1.0.3'
+    compile 'com.android.support:support-v4:27.1.1'
+    //compile 'com.google.firebase:firebase-core:11.0.0'
+    // compile 'com.google.firebase:firebase-messaging:11.0.0'
+    compile 'com.github.scottyab:showhidepasswordedittext:0.8'
+    compile 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
+    compile 'id.zelory:compressor:2.1.0'
+
+    //glide
+    compile 'com.github.bumptech.glide:glide:4.4.0'
+
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.4.0'
+    compile 'com.android.support:recyclerview-v7:27.1.1'
+    //circle imageview
+    compile 'de.hdodenhof:circleimageview:2.2.0'
+    testImplementation 'junit:junit:4.12'
+}
+// Add to the bottom of the file
+//apply plugin: 'com.google.gms.google-services'
+

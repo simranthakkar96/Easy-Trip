@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.simra_000.user_application.Hotel.Book_Hotel">
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/pay_type">
+<RadioButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/pay1"
+    android:text="@string/Pay1"
+    android:textSize="20dp"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pay2"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/Pay2"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pay3"
+        android:layout_marginTop="10dp"
+        android:text="@string/Pay3"
+        android:textSize="20dp"/>
+</RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/book_hotel"
+        android:text="Confirm Booking"
+        android:textSize="20dp"
+        android:background="#ff8a65"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/datechatadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/datebackground"
+        android:padding="4dp"
+        android:text="Date"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/datechatadmin"
+        android:background="@drawable/incoming_bubble"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:inputType="textMultiLine"
+            android:maxLines="20"
+            android:text="user"
+            android:id="@+id/sendernameadmin"
+            android:textStyle="bold"
+            android:textColor="@color/adminbluedark"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/singlemsgadmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:inputType="textMultiLine"
+            android:maxLines="20"
+            android:paddingLeft="5dp"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/timechatadmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/blue_grey_500"
+            android:textSize="11dp" />
+    </LinearLayout>
+</RelativeLayout>

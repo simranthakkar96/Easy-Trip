@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:gravity="center"
+android:layout_height="match_parent"
+    android:background="#ffccbc"
+tools:context="com.example.simra_000.user_application.Main_Pages.Registration">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/suitcase"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Name:"
+        android:layout_margin="5dp"
+        android:textColor="@color/red"
+        android:layout_weight="2"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your First Name"
+        android:id="@+id/fname"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:textColorHint="@color/red"
+        android:layout_weight="1" />
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Last Name:"
+        android:layout_margin="5dp"
+        android:textColor="@color/red"
+        android:layout_weight="2"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lname"
+        android:hint="Enter Your Last Name"
+        android:textColorHint="@color/red"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textColor="@color/red"/>
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textColor="@color/red"
+        android:layout_weight="2"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:id="@+id/pass"
+        android:inputType="textPassword"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textColorHint="@color/red"
+        android:layout_weight="1" />
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CPassword:"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textColor="@color/red"
+        android:layout_weight="2"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/red"
+        android:id="@+id/cpass"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:layout_weight="1" />
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:layout_weight="2"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:id="@+id/email"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/red"
+        android:layout_weight="1" />
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile No:"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textColor="@color/red"
+        android:layout_weight="2"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Mobile Number"
+        android:textColorHint="@color/red"
+        android:inputType="number"
+        android:id="@+id/number"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:layout_weight="1" />
+</LinearLayout>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Register"
+    android:textSize="20dp"
+    android:id="@+id/but1"
+    android:background="@color/colorPrimary"
+    />
+</LinearLayout>
+

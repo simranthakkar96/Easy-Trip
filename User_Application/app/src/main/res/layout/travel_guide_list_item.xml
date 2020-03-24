@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/card"
+        android:layout_margin="5dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agency:"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/agency"
+            android:layout_weight="1"
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:text="hwsbfhdvf"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agency Address:"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address"
+        android:layout_weight="1"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:text="hwsbfhdvf"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Guide Name:"
+android:textSize="20dp"
+android:layout_weight="1"
+android:textColor="#000"/>
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/guide_name"
+android:layout_weight="1"
+android:textColor="@color/red"
+android:textSize="20dp"
+android:text="hwsbfhdvf"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guide Contact:"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/guide_contact"
+            android:layout_weight="1"
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:text="hwsbfhdvf"/>
+    </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/book_guide"
+            android:text="Book"
+            android:background="#ffab91"
+            android:textSize="20dp"/>
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>

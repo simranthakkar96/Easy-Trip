@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.simra_000.user_application.Profile.WishList">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/saved_hotels"
+        android:text="Hotels"
+        android:background="#ffab91"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/saved_restaurants"
+        android:text="Restaurants"
+        android:layout_marginTop="20dp"
+        android:background="#ffab91"
+        android:textSize="20dp"/>
+
+
+
+</LinearLayout>

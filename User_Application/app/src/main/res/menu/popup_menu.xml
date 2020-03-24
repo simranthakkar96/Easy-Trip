@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/city1"
+        android:title="Surat"/>
+    <item
+        android:id="@+id/city2"
+    android:title="Baroda"/>
+    <item
+        android:id="@+id/city3"
+    android:title="Mumbai"/>
+
+    <item
+        android:id="@+id/city4"
+        android:title="Pune"/>
+    <item
+        android:id="@+id/city5"
+        android:title="Goa"/>
+    <item
+        android:id="@+id/city6"
+        android:title="Kolkata"/>
+
+
+
+</menu>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mesgs"
+        android:paddingBottom="10dp"
+            android:layout_above="@+id/msglayout"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:dividerHeight="5dp"
+        android:divider="#00000000"
+        android:stackFromBottom="true"
+        android:background="@drawable/pattern"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </ListView>
+
+
+    <RelativeLayout
+        android:id="@+id/msglayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:layout_toLeftOf="@+id/sendchat"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/chatbox"
+            android:typeface="serif"
+            android:textColorHint="@color/shadow"
+            android:gravity="left|top"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:hint="Send message"
+            android:paddingTop="7dp"
+            android:paddingRight="3dp"
+            android:paddingEnd="3dp"
+            android:paddingBottom="7dp"
+            android:background="@drawable/roundedotp"
+            android:inputType="textMultiLine|textCapSentences" />
+
+        <ImageButton
+            android:src="@drawable/ic_send"
+            android:layout_centerInParent="true"
+            android:id="@+id/sendchat"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

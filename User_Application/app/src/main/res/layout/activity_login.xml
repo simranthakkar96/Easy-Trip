@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+    android:background="#ffccbc"
+
+tools:context="com.example.simra_000.user_application.Main_Pages.Login">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/suitcase"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name:"
+        android:layout_margin="5dp"
+        android:textColor="@color/red"
+        android:layout_weight="2"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your User Name"
+        android:textColorHint="@color/red"
+        android:id="@+id/uname"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:layout_weight="1" />
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:layout_margin="5dp"
+            android:textColor="@color/red"
+            android:layout_weight="1.6"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your User Name"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:id="@+id/pass"
+            android:textColorHint="@color/red"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_visibility_off_black_18dp"
+            android:layout_weight="2.2"
+            android:id="@+id/show"/>
+
+        </LinearLayout>
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:text="Login"
+    android:textSize="20dp"
+        android:background="@color/colorPrimary"
+    android:id="@+id/login" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Sign Up"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/signup" />
+
+</LinearLayout>
+
