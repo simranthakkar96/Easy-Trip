@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@drawable/gradiant_background"
+tools:context=".Travel_Guide">
+
+<include layout="@layout/action_bar" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:padding="8dp">
+    <EditText
+        android:id="@+id/agency_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:padding="10dp"
+        android:background="@drawable/styleeditext"
+        android:inputType="textPersonName"
+        android:hint="Agency Name" />
+
+    <EditText
+        android:id="@+id/guide_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:padding="10dp"
+        android:background="@drawable/styleeditext"
+        android:inputType="textMultiLine"
+        android:hint="Guide Name"/>
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:padding="10dp"
+        android:background="@drawable/styleeditext"
+        android:inputType="phone"
+        android:hint="Contact Number"/>
+
+    <EditText
+        android:id="@+id/guideaddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:padding="10dp"
+        android:background="@drawable/styleeditext"
+        android:inputType="textMultiLine"
+        android:hint="Address(work office)"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_marginTop="10dp"
+        android:id="@+id/upload2"/>
+</LinearLayout>
+</LinearLayout>

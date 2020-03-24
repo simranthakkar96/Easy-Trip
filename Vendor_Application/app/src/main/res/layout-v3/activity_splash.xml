@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+    android:background="@color/colorAccent"
+tools:context=".Splash">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Miles And Smiles Away"
+    android:textSize="25dp"
+    android:textColor="#000"
+    android:layout_marginLeft="70dp"/>
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/suitcase" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Easy Trip "
+            android:textSize="40dp"
+            android:layout_marginLeft="75dp"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textStyle="italic"
+
+            />
+
+    </LinearLayout>
+</LinearLayout>
+

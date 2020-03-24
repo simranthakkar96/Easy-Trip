@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Vendor_Application</string>
+    <string name="imagepath">http://172.20.10.3/login_information/uploads/</string>
+    <string name="url">http://172.20.10.3/login_information/login_service.php?</string>
+    <string name="title_activity_maps">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="City">
+        <item>Surat</item>
+        <item>Baroda</item>
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>Kolkata</item>
+        <item>Goa</item>
+        <item>Delhi</item>
+    </string-array>
+    <string name="fontfamily">sans-serif</string>
+    <string-array name="vendor">
+        <item>Hotel Vendor</item>
+        <item>Restaurant Vendor</item>
+        <item>Travel Guide</item>
+    </string-array>
+</resources>
