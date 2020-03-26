@@ -25,9 +25,9 @@ On home page user have many options for managing their trip like
 -----------------------------------
 
 2) Vendor Application
-Splash Screen for the application
-login and registration for the vendors
-Allowing editing of their profile
+Splash Screen for the application,
+login and registration for the vendors,
+Allowing editing of their profile,
 Allowing restaurants and hotels to insert update and delete their data for the application
 
 # Backend
