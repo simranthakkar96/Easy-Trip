@@ -25,10 +25,10 @@ On home page user have many options for managing their trip like
 -----------------------------------
 
 2) Vendor Application
-a) Splash Screen for the application
-b) login and registration for the vendors
-c) Allowing editing of their profile
-d) Allowing restaurants and hotels to insert update and delete their data for the application
+Splash Screen for the application
+login and registration for the vendors
+1) Allowing editing of their profile
+2) Allowing restaurants and hotels to insert update and delete their data for the application
 
 # Backend
 This application is using PHP and MySql for handling remote server of the application and to perform basic CRUD operation on both the application
